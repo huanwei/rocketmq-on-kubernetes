@@ -14,5 +14,3 @@ RUN groupadd -g ${gid} ${group} \
 RUN chown -R ${uid}:${gid} ${ROCKETMQ_HOME}
 
 USER ${user}
-
-WORKDIR ${ROCKETMQ_HOME}/bin
